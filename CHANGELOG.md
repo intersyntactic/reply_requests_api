@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.0
+
+Breaking: the reply types now come from `is_conversation_reply_vocabulary`
+^0.1.0, the renamed `is_reply_vocabulary`, which ends at 0.2.1. The API and
+JSON are unchanged. An implementer switches its dependency and its imports
+together, in one change: a package that still resolves `is_reply_vocabulary`
+beside this one has two `ReplyEndpoint` types, and they don't match.
+
 ## 0.1.0
 
 - `WritesSlackReplyRequests` and `WritesWebAddressReplyRequests`: a

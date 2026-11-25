@@ -27,5 +27,5 @@ first piece that isn't `Ran`. It builds each `PostedMessage` itself with
 from the grant, never from the writer.
 
 It depends on `is_effects` (`ProposedRequest`, `WebResponse`, `Outcome`),
-`is_reply_vocabulary` and `is_shapes` (`TrajectoryId`), and re-exports
-none of them: import each one you use.
+`is_conversation_reply_vocabulary` and `is_shapes` (`TrajectoryId`), and
+re-exports none of them: import each one you use.
