@@ -4,15 +4,15 @@ description: >-
   carry it to a Slack conversation or a conversation's web address, and
   read back what each one posted. Pure, so the web driver knows nothing of
   Slack or Teams.
-version: 0.1.0
+version: 0.2.0
 repository: https://github.com/intersyntactic/reply_requests_api
 
 environment:
   sdk: ^3.13.0
 
 dependencies:
+  is_conversation_reply_vocabulary: ^0.1.0
   is_effects: ^0.17.0
-  is_reply_vocabulary: ^0.2.1
   is_shapes: ^0.6.0
 
 dev_dependencies:

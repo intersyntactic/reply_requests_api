@@ -29,8 +29,11 @@ Iterable<StringLiteral> directiveUris(String source) sync* {
 
 /// The interfaces name only the types they take and give back: the web
 /// request and outcome types, the reply's, and the trajectory's id.
-bool _allowedPackage(String name) =>
-    const {'is_effects', 'is_reply_vocabulary', 'is_shapes'}.contains(name);
+bool _allowedPackage(String name) => const {
+  'is_conversation_reply_vocabulary',
+  'is_effects',
+  'is_shapes',
+}.contains(name);
 
 bool _allowed(String target) {
   final uri = Uri.parse(target);
