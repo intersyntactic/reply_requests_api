@@ -1,6 +1,6 @@
 import 'package:is_effects/is_effects.dart'
     show NothingRan, Outcome, ProposedRequest, Ran, StoppedPartway, WebResponse;
-import 'package:is_conversation_reply_vocabulary/is_conversation_reply_vocabulary.dart'
+import 'package:is_conversation_vocabulary/is_conversation_vocabulary.dart'
     show
         PostedMessage,
         RepliesInSlackConversation,

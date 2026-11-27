@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0
+
+Breaking: the reply types now come from `is_conversation_vocabulary`
+^0.1.0, which `is_conversation_reply_vocabulary` was merged into; the types
+and their JSON are unchanged. On `is_effects` ^0.18.0, so both share
+`checked_json` ^0.3.0. Import the reply types from
+`package:is_conversation_vocabulary/is_conversation_vocabulary.dart`.
+
 ## 0.2.0
 
 Breaking: the reply types now come from `is_conversation_reply_vocabulary`
